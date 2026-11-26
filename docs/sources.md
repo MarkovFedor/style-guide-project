@@ -13,6 +13,10 @@
 - [Google developer documentation style guide: Highlights](https://developers.google.com/style/highlights): активный залог, понятные действия, осмысленные ссылки и оформление кода. Англоязычные орфографические нормы не переносятся в русский текст.
 - [Diátaxis](https://diataxis.fr/): разделение документации по потребности читателя на обучение, практические инструкции, справочник и объяснение.
 
+## Доступность
+
+- [W3C WAI: заголовки](https://www.w3.org/WAI/tutorials/page-structure/headings/), [доступное письмо](https://www.w3.org/WAI/tips/writing/), [изображения](https://www.w3.org/WAI/tutorials/images/) и [таблицы](https://www.w3.org/WAI/tutorials/tables/): основания правил отдельного раздела доступности. Рекомендации не являются подтверждением соответствия всего сайта WCAG.
+
 ## Инструменты
 
 - [MkDocs: публикация](https://www.mkdocs.org/user-guide/deploying-your-docs/): сборка статического сайта и публикация.
