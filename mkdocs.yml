@@ -39,6 +39,7 @@ nav:
       - Структура документов: guide/structure.md
       - Markdown и иллюстрации: guide/markdown.md
       - Команды и API: guide/api.md
+      - Доступность текста: guide/accessibility.md
       - Проверка и поддержка: guide/quality.md
   - Примеры:
       - Запуск проекта: examples/quickstart.md
