@@ -1,0 +1,48 @@
+site_name: Стайлгайд документации MVP доставки еды
+site_description: Русское руководство по документации mvp-delivery-backend
+site_author: Фёдор Марков
+site_url: https://markovfedor.github.io/style-guide-project/
+repo_url: https://github.com/MarkovFedor/style-guide-project
+edit_uri: edit/main/docs/
+strict: true
+theme:
+  name: material
+  language: ru
+  font: false
+  palette:
+    primary: indigo
+  features:
+    - navigation.sections
+    - navigation.top
+    - content.code.copy
+plugins:
+  - search:
+      lang: ru
+markdown_extensions:
+  - tables
+  - fenced_code
+  - toc:
+      permalink: true
+validation:
+  nav:
+    omitted_files: warn
+    not_found: warn
+  links:
+    not_found: warn
+    anchors: warn
+nav:
+  - Главная: index.md
+  - Руководство:
+      - Принципы и область применения: guide/principles.md
+      - Язык и оформление: guide/language.md
+      - Терминология: guide/terms.md
+      - Структура документов: guide/structure.md
+      - Markdown и иллюстрации: guide/markdown.md
+      - Команды и API: guide/api.md
+      - Проверка и поддержка: guide/quality.md
+  - Примеры:
+      - Запуск проекта: examples/quickstart.md
+      - Статусы заказа: examples/order-status.md
+      - Протокол проверки: examples/validation.md
+  - Лабораторная работа 3: lab-report.md
+  - Источники: sources.md
